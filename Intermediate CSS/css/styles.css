@@ -1,0 +1,129 @@
+.top-container{
+
+  position: relative;
+  padding-top: 100px;
+  background-color: #EAF6F6;
+}
+
+body{
+  margin: 0px;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 100%;
+}
+
+
+h1{
+  margin:50px auto 0 auto;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2{
+  font-size: 2.5rem;
+  color: #66BFBF;
+  display: block;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 15%;
+  bottom:300px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 30%;
+  top:50px;
+}
+
+
+
+.contact-me-button {
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: linear-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: white;
+   font-family: Open Sans;
+   font-size: 40px;
+   font-weight: 100;
+   padding: 40px;
+   box-shadow: 1px 1px 20px 0px #000000;
+   -webkit-box-shadow: 1px 1px 20px 0px #000000;
+   -moz-box-shadow: 1px 1px 20px 0px #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.contact-me-button:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.fb{
+  display: inline-block;
+}
+
+.twitter{
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.ln{
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.personal-img
+{
+  border-radius: 100px;
+  margin: 40px auto 0 auto;
+  height:20%;
+  width: 20%;
+}
+
+.skill-img
+{
+  border-radius: 100px;
+  margin: 0px auto 0 auto;
+  height:20%;
+  width: 20%;
+}
+
+.contact-links{
+  margin-top: 30px;
+  height: 80px;
+  background: #66BFBF;
+  text-decoration-color: black;
+}
+
+.contact-hyperlinks{
+  margin-top: 100px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+hr{
+  border: dotted #EAF6F6 6px;
+  width: 4%;
+  margin: 100px auto;
+}
